@@ -55,13 +55,13 @@ namespace HylosBookRental
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "2754291057932226",
-               appSecret: "ae3047ecdd5d6f12080e814fc5821c5a");
+               appId: "***************",
+               appSecret: "*************");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "828597000869-crllfs8lkl0ql3l4c11s52521bd8699g.apps.googleusercontent.com",
-                ClientSecret = "LHaEkCXJIMrA61AOIgL-3Jbe"
+                ClientId = "*********",
+                ClientSecret = "**************"
             });
         }
     }
